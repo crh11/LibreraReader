@@ -127,3 +127,8 @@ Librera is distributed under the GPL
 ## License
 
 See the [LICENSE](LICENSE.txt) file for license rights and limitations (GPL v.3).
+
+## windows & Android Studio compile:
+源工程只能在linux下才能编译Builder c/c++代码生成动态库，windows下使用则会报错找不到动态的错误
+使用https://github.com/crh2017/LibreraReader master分支下的app/src/main/jniLibs复制到本项目app/src/main/jniLibs
+这样解决windows下不能编译生成so动态库问题
